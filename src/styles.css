@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~leaflet/dist/leaflet.css";
+
+.tooltipGreen {
+  background-color: #52e44d;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.tooltipRed {
+  background-color: #c02a2a;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 18px;
+  color: #333;
+}
