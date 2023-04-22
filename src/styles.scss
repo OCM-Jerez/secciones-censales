@@ -2,10 +2,13 @@
 @import "~leaflet/dist/leaflet.css";
 
 .tooltipGreen {
+  width: 20px;
+  height: 26px;
   background-color: #52e44d;
   border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 5px;
+  border-radius: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-size: 18px;
   color: #333;
 }
@@ -13,7 +16,7 @@
 .tooltipRed {
   background-color: #c02a2a;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 50px;
   padding: 5px;
   font-size: 18px;
   color: #333;
