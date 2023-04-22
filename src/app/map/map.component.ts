@@ -3,7 +3,8 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Icon, geoJSON, map, marker, tileLayer } from 'leaflet';
 
 import { GeoJsonObject } from 'geojson';
-import secionesCensales from '../../assets/data/secionesCensales.json';
+// import secionesCensales from '../../assets/data/secionesCensales.json';
+import secionesCensales from '../../assets/data/secionesCensalesUpdateDiferencia.json';
 
 @Component({
   selector: 'app-map',
@@ -155,7 +156,8 @@ export class MapComponent implements AfterViewInit, OnInit {
     });
 
     // Utiliza el método `map` para crear los objetos con las propiedades deseadas
-    const intramuros = filteredFeatures.map((feature) => {
+    // const intramuros = filteredFeatures.map((feature) => {
+    const intramuros = secionesCensales.features.map((feature) => {
       return {
         icon: iconGreen,
         title: feature.properties.ID,
