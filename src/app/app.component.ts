@@ -21,7 +21,7 @@ import { ds02026 } from '../assets/data/02-026';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements AfterViewInit, OnInit {
   geoJson: GeoJsonObject | undefined;
