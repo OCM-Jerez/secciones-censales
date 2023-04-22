@@ -1,3 +1,37 @@
+{
+    "ID": "01-001",
+    "color": "red",
+    "censados": "1.264",
+    "TOTAL": "388",
+    "Abstencion": "876",
+    "%abtencion": "69.30%",
+    "nulos": "4",
+    "blancos": "6",
+    "FCJ": "11",
+    "GANEMOS": "78",
+    "IPJ": "0",
+    "IU": "33",
+    "PA": "11",
+    "PCPE": "2",
+    "PP": "110",
+    "PSOE": "107",
+    "UPyD": "1",
+    "CIUDADANOS": "25",
+    "PartidoGanador": "PP"
+}  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   Para convertir un array a objeto
   
   const initialArray = [];
