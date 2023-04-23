@@ -4,7 +4,8 @@ import { Icon, geoJSON, map, marker, tileLayer } from 'leaflet';
 
 import { GeoJsonObject } from 'geojson';
 // import secionesCensales from '../../assets/data/secionesCensales.json';
-import secionesCensales from '../../assets/data/secionesCensalesUpdateDiferencia.json';
+// import secionesCensales from '../../assets/data/secionesCensalesUpdateDiferenciaUpdateColor.json';
+import secionesCensales from '../../assets/data/secionesCensalesDomingoCenter.json';
 
 @Component({
   selector: 'app-map',
@@ -75,20 +76,20 @@ export class MapComponent implements AfterViewInit, OnInit {
       // onEachFeature: this.onEachFeature,
     }).addTo(mamOCM);
 
-    console.log('secionesCensales', secionesCensales.features[0].properties.ID);
-    console.log(
-      'secionesCensales',
-      secionesCensales.features[0].geometry.coordinates[0][0]
-    );
-    console.log(
-      'secionesCensales',
-      secionesCensales.features[0].geometry.coordinates[0][0][0],
-      typeof secionesCensales.features[0].geometry.coordinates[0][0][0]
-    );
-    console.log(
-      'secionesCensales',
-      secionesCensales.features[0].geometry.coordinates[0][0][1]
-    );
+    // console.log('secionesCensales', secionesCensales.features[0].properties.ID);
+    // console.log(
+    //   'secionesCensales',
+    //   secionesCensales.features[0].geometry.coordinates[0][0]
+    // );
+    // console.log(
+    //   'secionesCensales',
+    //   secionesCensales.features[0].geometry.coordinates[0][0][0],
+    //   typeof secionesCensales.features[0].geometry.coordinates[0][0][0]
+    // );
+    // console.log(
+    //   'secionesCensales',
+    //   secionesCensales.features[0].geometry.coordinates[0][0][1]
+    // );
 
     // this.geoJson.features.forEach((feature) => {
     //   const coordinates = feature.geometry.coordinates[0][0];
@@ -168,7 +169,7 @@ export class MapComponent implements AfterViewInit, OnInit {
       };
     });
 
-    console.log(intramuros); // Muestra los objetos extraídos
+    // console.log(intramuros); // Muestra los objetos extraídos
 
     const varHabitantes = [
       // {
@@ -196,7 +197,7 @@ export class MapComponent implements AfterViewInit, OnInit {
     // console.log('varHabitantes', varHabitantes);
 
     intramuros.map((point) => {
-      console.log('point', point);
+      // console.log('point', point);
 
       marker([point.lat, point.long], {
         // marker(point.lat = point.coordinates, {
