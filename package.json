@@ -1,6 +1,6 @@
 {
   "name": "secciones-censales",
-  "version": "1.04.22",
+  "version": "1.04.23",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
