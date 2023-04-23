@@ -3,7 +3,8 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Icon, geoJSON, map, marker, tileLayer } from 'leaflet';
 
 import { GeoJsonObject } from 'geojson';
-import secionesCensales from '../../assets/data/secionesCensales.json';
+// import secionesCensales from '../../assets/data/seccionesCensalesDomingo.json';
+import secionesCensales from '../../assets/data/secionesCensalesUpdateCenso2004-2022UpdateTotal.json';
 
 @Component({
   selector: 'app-map',
